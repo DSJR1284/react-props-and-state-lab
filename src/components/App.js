@@ -1,5 +1,4 @@
 import React from 'react'
-
 import Filters from './Filters'
 import PetBrowser from './PetBrowser'
 
@@ -41,9 +40,7 @@ class App extends React.Component {
     });
     this.setState({pets});    
   };
-
-
-
+  
   render() {
     return (
       <div className="ui container">
